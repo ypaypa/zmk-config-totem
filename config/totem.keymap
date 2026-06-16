@@ -88,7 +88,7 @@
                          &mt EXCLAMATION Q  &mt AT_SIGN W  &mt HASH E  &mt DOLLAR R  &mt PERCENT T    &mt CARET Y  &mt AMPERSAND U    &mt ASTERISK I  &mt LEFT_PARENTHESIS O  &mt RIGHT_PARENTHESIS P
                          &kp A              &kp S          &kp D       &kp F         &kp G            &kp H        &kp J              &kp K           &kp L                   &kp SEMICOLON
 &mt LEFT_CONTROL LSHIFT  &kp Z              &kp X          &kp C       &kp V         &kp B            &kp N        &kp M              &kp COMMA       &kp PERIOD              &kp SLASH                &kp SQT
-                                                           &tog 1      &lt NAV TAB   &kp SPACE        &kp RET      &mt RIGHT_WIN ESC  &kp BSPC
+                                                           &tog 1      &lt 0 TAB     &kp SPACE        &kp RET      &mt RIGHT_WIN ESC  &kp BSPC
             >;
         };
 
