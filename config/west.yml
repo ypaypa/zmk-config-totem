@@ -4,6 +4,8 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: bildermankawasaki
       url-base: https://github.com/bildermankawasaki
+    - name: ypaypa
+      url-base: https://github.com/ypaypa
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -12,5 +14,6 @@ manifest:
     - name: zmk-keyboard-totem
       remote: bildermankawasaki
       revision: main
-  self:
-    path: config
+    - name: zmk-totem-telemetry
+      remote: ypaypa
+      revision: main
