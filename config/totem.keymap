@@ -26,7 +26,7 @@
     quick-tap-ms = <100>;
     global-quick-tap;
     flavor = "tap-preferred";
-    tapping-term-ms = <250>;
+    tapping-term-ms = <300>;
 };
 
 / {
@@ -85,10 +85,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                         &mt EXCLAMATION Q  &mt AT_SIGN W  &mt HASH E  &mt DOLLAR R  &mt PERCENT T    &mt CARET Y  &mt AMPERSAND U    &mt ASTERISK I  &mt LEFT_PARENTHESIS O  &mt RIGHT_PARENTHESIS P
-                         &kp A              &kp S          &kp D       &kp F         &kp G            &kp H        &kp J              &kp K           &kp L                   &kp SEMICOLON
-&mt LEFT_CONTROL LSHIFT  &kp Z              &kp X          &kp C       &kp V         &kp B            &kp N        &kp M              &kp COMMA       &kp PERIOD              &kp SLASH                &kp SQT
-                                                           &tog 1      &lt 0 TAB     &kp SPACE        &kp RET      &mt RIGHT_WIN ESC  &kp BSPC
+                         &mt EXCLAMATION Q  &mt AT_SIGN W   &mt HASH E  &mt DOLLAR R  &mt PERCENT T    &mt CARET Y  &mt AMPERSAND U  &mt ASTERISK I  &mt LEFT_PARENTHESIS O  &mt RIGHT_PARENTHESIS P
+                         &mt LEFT_WIN A     &mt LEFT_ALT S  &kp D       &kp F         &kp G            &kp H        &kp J            &kp K           &kp L                   &kp SEMICOLON
+&mt LEFT_CONTROL LSHIFT  &kp Z              &kp X           &kp C       &kp V         &kp B            &kp N        &kp M            &kp COMMA       &kp PERIOD              &kp SLASH                &kp SQT
+                                                            &kp TAB     &lt 1 ESCAPE  &kp SPACE        &kp RET      &kp BACKSPACE    &lt 2 DEL
             >;
         };
 
