@@ -85,10 +85,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                &mt EXCLAMATION Q  &mt AT_SIGN W   &mt HASH E  &mt DOLLAR R  &mt PERCENT T    &mt CARET Y            &mt AMPERSAND U  &mt ASTERISK I  &mt LEFT_PARENTHESIS O  &mt RIGHT_PARENTHESIS P
-                &mt LEFT_WIN A     &mt LEFT_ALT S  &kp D       &kp F         &kp G            &kp H                  &kp J            &kp K           &kp L                   &kp SEMICOLON
-&kp LEFT_SHIFT  &kp Z              &kp X           &kp C       &kp V         &kp B            &kp N                  &kp M            &kp COMMA       &kp PERIOD              &kp SLASH                &kp SQT
-                                                   &kp TAB     &lt 1 ESCAPE  &kp SPACE        &mt RET RIGHT_CONTROL  &kp BACKSPACE    &lt 2 DEL
+                &mt EXCLAMATION Q  &mt AT_SIGN W   &mt HASH E  &mt DOLLAR R  &mt PERCENT T    &mt CARET Y             &mt AMPERSAND U  &mt ASTERISK I  &mt LEFT_PARENTHESIS O  &mt RIGHT_PARENTHESIS P
+                &mt LEFT_WIN A     &mt LEFT_ALT S  &kp D       &kp F         &kp G            &kp H                   &kp J            &kp K           &kp L                   &kp SEMICOLON
+&kp LEFT_SHIFT  &kp Z              &kp X           &kp C       &kp V         &kp B            &kp N                   &kp M            &kp COMMA       &kp PERIOD              &kp SLASH                &kp SQT
+                                                   &kp TAB     &lt 1 ESCAPE  &kp SPACE        &mt LEFT_CONTROL ENTER  &kp BACKSPACE    &lt 2 DEL
             >;
         };
 
