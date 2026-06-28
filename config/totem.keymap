@@ -35,7 +35,7 @@
 
         combo_capture {
             timeout-ms = <50>;
-            key-positions = <0 1>;
+            key-positions = <13 14>;
             bindings = <&kp LG(LS(S))>;
         };
 
